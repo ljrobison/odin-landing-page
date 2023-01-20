@@ -1,0 +1,24 @@
+:root {
+  --darkbg-color: #1f2937;
+
+  --herotext-color: #f9faf8;
+  --herotext-size: 48;
+  --herotext-weight: 900;
+
+  --herosecondtext-color: #e5e7eb;
+  --herosecondtext-size: 18;
+
+  --headertext-color: #f9faf8;
+  --headertext-size: 24;
+
+  --buttoncta-color: #3882f6;
+
+  --infoheadertext-color: #1f2937;
+  --infoheadertext-size: 36;
+  --infoheadertext-weight: 900;
+
+  --quotebg-color: #e5e7eb;
+  --quotetext-color: #1f2937;
+  --quotetext-size: 36;
+  --quotetext-style: italic;
+}
