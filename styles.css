@@ -22,3 +22,19 @@
   --quotetext-size: 36;
   --quotetext-style: italic;
 }
+
+body {
+  background-color: var(--darkbg-color);
+}
+
+.flex-container {
+  display: flex;
+}
+
+.dark-bg {
+  background-color: var(--darkbg-color);
+}
+
+.header {
+  flex-direction: row;
+}
