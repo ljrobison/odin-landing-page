@@ -19,11 +19,13 @@
 
 body {
   font-family: "Roboto";
+  margin: 0;
 }
 
 .flex-container {
   display: flex;
   margin: 0;
+  flex-direction: column;
 }
 
 .header-container {
@@ -73,6 +75,7 @@ body {
   display: flex;
   flex-direction: row;
   flex: 100%;
+  background-color: var(--darkbg-color);
 }
 
 .hero-panel {
