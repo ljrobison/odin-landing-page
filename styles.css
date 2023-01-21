@@ -49,9 +49,11 @@ body {
 
 .header-logo {
   display: flex;
-  justify-content: center;
+  justify-content:flex-start;
   flex: 1;
+  margin-left: 15vh;
 }
+
 .header-logo h1 {
   color: var(--herosecondtext-color);
   font-size: 24px;
@@ -60,8 +62,9 @@ body {
 .nav-header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   flex: 1;
+  margin-right: 15vh;
 }
 
 .nav-header h1 {
@@ -76,16 +79,29 @@ body {
   flex-direction: row;
   flex: 100%;
   background-color: var(--darkbg-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-panel {
   display: flex;
-  flex: 50%;
+  flex: 60%;
   font-size: 24px;
   color: white;
+  flex-direction: column;
+  justify-content:flex-start;
+  margin-left: 15vh;
+  padding-right: 120px;
+}
+
+.hero-panel h1{
 }
 
 .hero-image {
   display: flex;
-  flex: 50;
+  flex: 40%;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  margin-right: 15vh;
 }
