@@ -30,6 +30,7 @@ body {
   display: flex;
   flex-direction: row;
   background-color: var(--darkbg-color);
+  flex: 100%;
 }
 
 .dark-bg {
@@ -41,24 +42,24 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  flex-basis: 1 1 auto;
+  width: 100vw;
 }
 
 .header-logo {
-  text-align: center;
-  width: 50vw;
+  display: flex;
+  justify-content: center;
+  flex: 1;
 }
 .header-logo h1 {
   color: var(--herosecondtext-color);
   font-size: 24px;
-  margin-right: 20px;
 }
 
 .nav-header {
   display: flex;
-  width: 50vw;
   flex-direction: row;
   justify-content: center;
+  flex: 1;
 }
 
 .nav-header h1 {
@@ -66,4 +67,22 @@ body {
   font-size: 18px;
   margin-right: 20px;
   font-weight: 400;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  flex: 100%;
+}
+
+.hero-panel {
+  display: flex;
+  flex: 50%;
+  font-size: 24px;
+  color: white;
+}
+
+.hero-image {
+  display: flex;
+  flex: 50;
 }
