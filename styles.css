@@ -1,34 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 :root {
   --darkbg-color: #1f2937;
 
   --herotext-color: #f9faf8;
-  --herotext-size: 48;
-  --herotext-weight: 900;
 
   --herosecondtext-color: #e5e7eb;
-  --herosecondtext-size: 18;
 
   --headertext-color: #f9faf8;
-  --headertext-size: 24;
 
   --buttoncta-color: #3882f6;
 
   --infoheadertext-color: #1f2937;
-  --infoheadertext-size: 36;
-  --infoheadertext-weight: 900;
 
   --quotebg-color: #e5e7eb;
   --quotetext-color: #1f2937;
-  --quotetext-size: 36;
-  --quotetext-style: italic;
 }
 
 body {
-  background-color: var(--darkbg-color);
+  font-family: "Roboto";
 }
 
 .flex-container {
   display: flex;
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--darkbg-color);
 }
 
 .dark-bg {
@@ -36,5 +37,33 @@ body {
 }
 
 .header {
+  display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 1 1 auto;
+}
+
+.header-logo {
+  text-align: center;
+  width: 50vw;
+}
+.header-logo h1 {
+  color: var(--herosecondtext-color);
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.nav-header {
+  display: flex;
+  width: 50vw;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-header h1 {
+  color: var(--herosecondtext-color);
+  font-size: 18px;
+  margin-right: 20px;
+  font-weight: 400;
 }
