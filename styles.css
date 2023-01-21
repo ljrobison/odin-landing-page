@@ -51,7 +51,7 @@ body {
   display: flex;
   justify-content:flex-start;
   flex: 1;
-  margin-left: 15vh;
+  margin-left: 20vh;
 }
 
 .header-logo h1 {
@@ -64,7 +64,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   flex: 1;
-  margin-right: 15vh;
+  margin-right: 20vh;
 }
 
 .nav-header h1 {
@@ -90,16 +90,18 @@ body {
   color: white;
   flex-direction: column;
   justify-content:flex-start;
-  margin-left: 15vh;
+  margin-left: 20vh;
   padding-right: 120px;
 }
 
 .hero-panel h1{
+  margin-bottom:0;
 }
 
 .hero-panel p {
   font-size: 18px;
   color: var(--herosecondtext-color);
+  margin-top:10px;
 }
 
 .hero-image {
@@ -108,7 +110,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: gray;
-  margin-right: 15vh;
+  margin-right: 20vh;
 }
 
 .hero-button {
