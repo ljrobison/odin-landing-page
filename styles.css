@@ -59,7 +59,7 @@ body {
 }
 
 .header-logo h1 {
-  color: var(--herosecondtext-color);
+  color: var(--headertext-color);
   font-size: 24px;
 }
 
@@ -90,8 +90,6 @@ body {
 .hero-panel {
   display: flex;
   flex: 50%;
-  font-size: 24px;
-  color: white;
   flex-direction: column;
   justify-content:flex-start;
   margin-left: 20vh;
@@ -100,6 +98,9 @@ body {
 
 .hero-panel h1{
   margin-bottom:0;
+  font-size:48px;
+  color: var(--herotext-color);
+  font-weight: 900;
 }
 
 .hero-panel p {
@@ -129,6 +130,7 @@ body {
   width: fit-content;
   background-color: var(--buttoncta-color);
   border-radius: 8px;
+  border: none;
   margin-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
