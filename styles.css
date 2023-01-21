@@ -17,6 +17,10 @@
   --quotetext-color: #1f2937;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto";
   margin: 0;
@@ -109,8 +113,12 @@ body {
   flex: 50%;
   justify-content: center;
   align-items: center;
-  background-color: gray;
   margin-right: 20vh;
+}
+
+.hero-image img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .hero-button {
