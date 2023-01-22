@@ -48,7 +48,9 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  background-color: var(--darkbg-color);
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .header-logo {
@@ -56,6 +58,22 @@ body {
   justify-content:flex-start;
   flex: 1;
   margin-left: 20vh;
+  font-size: 24px;
+  color: var(--infoheadertext-color);
+}
+
+a:link, a:visited {
+  background-color: transparent;
+  text-decoration: none;
+  color: var(--headertext-color);
+
+}
+
+.nav-header a:link, a:visited {
+  background-color: transparent;
+  text-decoration: none;
+  color: var(--headerseondtext-color);
+  
 }
 
 .header-logo h1 {
@@ -69,6 +87,17 @@ body {
   justify-content: flex-end;
   flex: 1;
   margin-right: 20vh;
+  color: var(--herosecondtext-color);
+  font-size: 18px;
+}
+
+.nav-header ul {
+  display: block;
+}
+
+.nav-header li {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
 }
 
 .nav-header h1 {
